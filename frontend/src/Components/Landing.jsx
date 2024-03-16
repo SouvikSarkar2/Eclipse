@@ -5,7 +5,7 @@ const Landing = () => {
   const { login, register, isAuthenticated } = useKindeAuth();
 
   if (isAuthenticated) {
-    redirect("/dashboard");
+    redirect("/root/music/home");
   }
 
   return (
