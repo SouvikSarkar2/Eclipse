@@ -18,3 +18,5 @@ const playlistSchema = new mongoose.Schema({
         ref: 'Song'
     }
 },{timestamps: true});
+
+const Playlist = mongoose.model('Playlist', playlistSchema);
