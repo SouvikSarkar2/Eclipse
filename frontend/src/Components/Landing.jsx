@@ -22,7 +22,7 @@ const Landing = () => {
         </button>
       </div>
       <div className="w-[88%] flex flex-col justify-start  h-[85%] pt-10 ">
-        <div className="font-[Oswald] flex flex-col gap-4 font-bold text-8xl z-10 text-landing bg-red-700 text-transparent bg-clip-text">
+        <div className="font-[Oswald] flex flex-col gap-4 font-thin text-8xl z-10 text-landing bg-black text-transparent bg-clip-text">
           <div>Your Personal </div>
           <div>Music & Video</div>
           <div>Streaming Platform</div>
