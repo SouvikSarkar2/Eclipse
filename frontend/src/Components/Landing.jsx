@@ -15,14 +15,14 @@ const Landing = () => {
 
         <button
           onClick={login}
-          className="z-10 rounded-md px-4 py-2 border-[1px] font-bold text-lg uppercase border-black duration-500 hover:bg-gradient-to-l hover:from-purple-500 hover:via-pink-500 hover:to-red-400 hover:text-white"
+          className="z-10 rounded-md px-4 py-2 border-[1px] font-bold text-lg uppercase border-black duration-500 hover:bg-gradient-to-l hover:bg-red-500 hover:text-white"
           type="button"
         >
           {isAuthenticated ? "Dashboard" : "Login"}
         </button>
       </div>
       <div className="w-[88%] flex flex-col justify-start  h-[85%] pt-10 ">
-        <div className="font-[Oswald] flex flex-col gap-4 font-bold text-8xl z-10 text-landing bg-gradient-to-r from-red-500 via-red-700 to-red-800 text-transparent bg-clip-text">
+        <div className="font-[Oswald] flex flex-col gap-4 font-bold text-8xl z-10 text-landing bg-red-700 text-transparent bg-clip-text">
           <div>Your Personal </div>
           <div>Music & Video</div>
           <div>Streaming Platform</div>
