@@ -11,7 +11,7 @@ const RootLayout = () => {
   }
   console.log(user);
   return (
-    <div className="w-[100vw] h-[100vh]">
+    <div className="w-[100vw] h-[100vh] relative">
       <div className="h-[12%] w-full bg-sky-400 flex justify-between">
         <div className="flex p-2 gap-2">
           {" "}
