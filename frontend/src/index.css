@@ -11,3 +11,14 @@
 .text-landing {
   -webkit-text-stroke: 2px black;
 }
+
+input,
+  textarea {
+    padding-inline-start: 20px;
+    background: #e9ecef;
+  }
+
+  .bg-coral-red {
+    --tw-text-opacity: 1;
+    background: rgb(255 100 82 / var(--tw-text-opacity));
+}
